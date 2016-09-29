@@ -18,7 +18,7 @@ class Docker(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
 
-   # search for anykeword in the search box
+   # search for any keyword in the search box
 
     def test_001_search_with_ivalid_keyword(self):
         self.search_docks("dfefevqv")

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b97049-c53e-4d5c-a2c5-a64dc854abca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docker.py" afterPath="$PROJECT_DIR$/Docker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.txt" afterPath="$PROJECT_DIR$/Readme.txt" />
     </list>
     <ignored path="untitled2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,20 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Docker.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Docker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Docker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
-                <element signature="e#24#39#0" expanded="true" />
-                <element signature="e#3518#3554#1" expanded="false" />
-                <element signature="e#4508#4947#0" expanded="false" />
-                <element signature="e#4997#5146#0" expanded="false" />
-                <element signature="e#5202#5352#0" expanded="false" />
-                <element signature="e#5394#5530#0" expanded="false" />
-                <element signature="e#5953#6025#0" expanded="false" />
-                <marker date="1475163140000" expanded="false" signature="5575:5883" ph="..." />
+                <element signature="e#4134#4170#1" expanded="false" />
+                <element signature="e#5124#5563#0" expanded="false" />
+                <element signature="e#5613#5762#0" expanded="false" />
+                <element signature="e#5818#5968#0" expanded="false" />
+                <element signature="e#6010#6146#0" expanded="false" />
+                <element signature="e#6569#6641#0" expanded="false" />
+                <marker date="1475167428000" expanded="false" signature="6191:6499" ph="..." />
               </folding>
             </state>
           </provider>
@@ -96,11 +96,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -123,11 +133,12 @@
       <list>
         <option value="$PROJECT_DIR$/Docker.robot" />
         <option value="$PROJECT_DIR$/SignUp.py" />
-        <option value="$PROJECT_DIR$/Readme.txt" />
-        <option value="$PROJECT_DIR$/Docker.py" />
-        <option value="$PROJECT_DIR$/Docker.py" />
         <option value="$PROJECT_DIR$/Docker.rst" />
         <option value="$PROJECT_DIR$/reportbuild/Docker.html" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Docker.py" />
+        <option value="$PROJECT_DIR$/Docker.py" />
       </list>
     </option>
   </component>
@@ -686,14 +697,13 @@
         <state relative-caret-position="270">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <element signature="e#3518#3554#1" expanded="false" />
-            <element signature="e#4508#4947#0" expanded="false" />
-            <element signature="e#4997#5146#0" expanded="false" />
-            <element signature="e#5202#5352#0" expanded="false" />
-            <element signature="e#5394#5530#0" expanded="false" />
-            <element signature="e#5953#6025#0" expanded="false" />
-            <marker date="1475163140000" expanded="false" signature="5575:5883" ph="..." />
+            <element signature="e#4134#4170#1" expanded="false" />
+            <element signature="e#5124#5563#0" expanded="false" />
+            <element signature="e#5613#5762#0" expanded="false" />
+            <element signature="e#5818#5968#0" expanded="false" />
+            <element signature="e#6010#6146#0" expanded="false" />
+            <element signature="e#6569#6641#0" expanded="false" />
+            <marker date="1475167428000" expanded="false" signature="6191:6499" ph="..." />
           </folding>
         </state>
       </provider>
@@ -735,14 +745,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <element signature="e#3518#3554#1" expanded="false" />
-            <element signature="e#4508#4947#0" expanded="false" />
-            <element signature="e#4997#5146#0" expanded="false" />
-            <element signature="e#5202#5352#0" expanded="false" />
-            <element signature="e#5394#5530#0" expanded="false" />
-            <element signature="e#5953#6025#0" expanded="false" />
-            <marker date="1475163140000" expanded="false" signature="5575:5883" ph="..." />
+            <element signature="e#4134#4170#1" expanded="false" />
+            <element signature="e#5124#5563#0" expanded="false" />
+            <element signature="e#5613#5762#0" expanded="false" />
+            <element signature="e#5818#5968#0" expanded="false" />
+            <element signature="e#6010#6146#0" expanded="false" />
+            <element signature="e#6569#6641#0" expanded="false" />
+            <marker date="1475167428000" expanded="false" signature="6191:6499" ph="..." />
           </folding>
         </state>
       </provider>
@@ -786,23 +795,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Docker.robot" />
-    <entry file="file://$PROJECT_DIR$/Docker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-            <element signature="e#3518#3554#1" expanded="false" />
-            <element signature="e#4508#4947#0" expanded="false" />
-            <element signature="e#4997#5146#0" expanded="false" />
-            <element signature="e#5202#5352#0" expanded="false" />
-            <element signature="e#5394#5530#0" expanded="false" />
-            <element signature="e#5953#6025#0" expanded="false" />
-            <marker date="1475163140000" expanded="false" signature="5575:5883" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/make.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -885,9 +877,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#4134#4170#1" expanded="false" />
+            <element signature="e#5124#5563#0" expanded="false" />
+            <element signature="e#5613#5762#0" expanded="false" />
+            <element signature="e#5818#5968#0" expanded="false" />
+            <element signature="e#6010#6146#0" expanded="false" />
+            <element signature="e#6569#6641#0" expanded="false" />
+            <marker date="1475167428000" expanded="false" signature="6191:6499" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

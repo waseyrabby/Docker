@@ -3,15 +3,18 @@ import unittest
 
 from selenium import webdriver
 from selenium.common.exceptions import NoAlertPresentException
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptons import NoSuchElementException
 
 
 class Docker(unittest.TestCase):
 
     # setting up browser for test
+    # we can chose either one of the browser.With advance codeing we can run both parallaly,or we can chose which browser to run test
+    # useing javascript popup(done it in java ,not python).I am not sure if you want me to do that
 
     def setUp(self):
         self.driver = webdriver.Firefox()
+        # self.driver=webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)
         self.base_url = "https://www.docker.com"
@@ -19,7 +22,7 @@ class Docker(unittest.TestCase):
         self.accept_next_alert = True
 
    # search for any keyword in the search box
-
+# choose it to verify data outcome
     def test_001_search_with_ivalid_keyword(self):
         self.search_docks("dfefevqv")
         self.search_docks_assertion()
@@ -27,7 +30,7 @@ class Docker(unittest.TestCase):
 
 
    # verify the title of docker website
-
+# It could be our smoke test to see if website is stable to test
     def test__002_Verify_docker_website_title_url(self):
 
         driver = self.driver
@@ -39,6 +42,7 @@ class Docker(unittest.TestCase):
 
     # signup to docker website,In an idle test senerio i would have genarated random e-mail but docker might block my ip address if
     # i keep signing up with different e-mail address from same ip.
+    # Its one of the most important feature of docker sight
     def test_003_docker_signup(self):
 
       self.signup("test","test@gmail.com","123456")
@@ -64,6 +68,10 @@ class Docker(unittest.TestCase):
         self.assert_error_massage()
 
     # click on download link and verify if download link is valid.
+    # I choose it because its important that we get new user and we only make money when they sign up and they wont sign up
+    # if the begening is not stable(download link broken)
+
+
     def test_008_download_mac_link(self):
         driver = self.driver
         driver.get(self.base_url)

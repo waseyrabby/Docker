@@ -6,3 +6,4 @@ from project directory.
 Or you can import it to your  IDE and run it from their.
 
 You have to do pip install required plugins(selenium,unittest,sphinx as required).
+pip install -r requirements.txt

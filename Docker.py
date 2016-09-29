@@ -3,7 +3,7 @@ import unittest
 
 from selenium import webdriver
 from selenium.common.exceptions import NoAlertPresentException
-from selenium.common.exceptons import NoSuchElementException
+
 
 
 class Docker(unittest.TestCase):
@@ -21,16 +21,16 @@ class Docker(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
 
-   # search for any keyword in the search box
-# choose it to verify data outcome
+        # search for any keyword in the search box
+    # choose it to verify data outcome
     def test_001_search_with_ivalid_keyword(self):
         self.search_docks("dfefevqv")
         self.search_docks_assertion()
 
 
 
-   # verify the title of docker website
-# It could be our smoke test to see if website is stable to test
+        # verify the title of docker website
+    # It could be our smoke test to see if website is stable to test
     def test__002_Verify_docker_website_title_url(self):
 
         driver = self.driver
@@ -45,14 +45,14 @@ class Docker(unittest.TestCase):
     # Its one of the most important feature of docker sight
     def test_003_docker_signup(self):
 
-      self.signup("test","test@gmail.com","123456")
+        self.signup("test","test@gmail.com","123456")
 
     # login to docker website and logout.
     def test_004_login_valid_username_valid_password(self):
 
         self.login("waseyrabby@gmail.com", "718756Home")
         self.logout()
-   # try to login with  invalid credential and verify error massage.
+        # try to login with  invalid credential and verify error massage.
     def test_005_login_ivalid_username_valid_password(self):
         self.login("waseyray", "718756Home")
         self.assert_error_massage()
@@ -174,7 +174,7 @@ class Docker(unittest.TestCase):
             self.accept_next_alert = True
 
 
-# after test closeing the browser.
+            # after test closeing the browser.
     def tearDown(self):
         self.driver.quit()
         self.assertEqual([], self.verificationErrors)

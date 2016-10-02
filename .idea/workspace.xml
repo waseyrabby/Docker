@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b97049-c53e-4d5c-a2c5-a64dc854abca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docker.py" afterPath="$PROJECT_DIR$/Docker.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <ignored path="untitled2.iws" />
@@ -25,6 +26,7 @@
     <SUITE FILE_PATH="coverage/FlashPointCodeingExersize$Unittest_Docker_test_001_search.coverage" NAME="Unittest Docker.test_001_search Coverage Results" MODIFIED="1475122747291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlashPointCodeingExersize$conf.coverage" NAME="conf Coverage Results" MODIFIED="1475163718898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled2$Unittests_in_Docker.coverage" NAME="Unittests in Docker Coverage Results" MODIFIED="1475089603424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FlashPointCodeingExersize$Unittest_Docker_test_008_download_mac_link.coverage" NAME="Unittest Docker.test_008_download_mac_link Coverage Results" MODIFIED="1475447464373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlashPointCodeingExersize$Unittest_Docker_test_docker_signup.coverage" NAME="Unittest Docker.test_docker_signup Coverage Results" MODIFIED="1475115165250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlashPointCodeingExersize$Unittest_Docker_test_006_login_valid_username_ivalid_password.coverage" NAME="Unittest Docker.test_006_login_valid_username_ivalid_password Coverage Results" MODIFIED="1475156929591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FlashPointCodeingExersize$Unittest_Docker_test_docker.coverage" NAME="Unittest Docker.test_docker Coverage Results" MODIFIED="1475106393191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -70,8 +72,8 @@
       <file leaf-file-name="Docker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Docker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            <state relative-caret-position="290">
+              <caret line="74" column="34" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="34" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -172,30 +174,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest Docker.test_001_search_with_ivalid_keyword">
-    <configuration default="false" name="Unittests in Docker" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FlashPointCodeingExersize" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docker.py" />
-      <option name="CLASS_NAME" value="Docker" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittest Docker.test_008_download_mac_link">
     <configuration default="false" name="Unittest Docker.test_006_login_valid_username_ivalid_password" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,6 +260,29 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest Docker.test_008_download_mac_link" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FlashPointCodeingExersize" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Docker.py" />
+      <option name="CLASS_NAME" value="Docker" />
+      <option name="METHOD_NAME" value="test_008_download_mac_link" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -552,19 +554,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test__002_Verify_docker_website_title_url" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Docker" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_006_login_valid_username_ivalid_password" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_005_login_ivalid_username_valid_password" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_001_search_with_ivalid_keyword" />
-      <item index="5" class="java.lang.String" itemvalue="Python.conf" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_006_login_valid_username_ivalid_password" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_005_login_ivalid_username_valid_password" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_001_search_with_ivalid_keyword" />
+      <item index="4" class="java.lang.String" itemvalue="Python.conf" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_008_download_mac_link" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_001_search_with_ivalid_keyword" />
-        <item index="1" class="java.lang.String" itemvalue="Python.conf" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_005_login_ivalid_username_valid_password" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_006_login_valid_username_ivalid_password" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in Docker" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_008_download_mac_link" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_001_search_with_ivalid_keyword" />
+        <item index="2" class="java.lang.String" itemvalue="Python.conf" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_005_login_ivalid_username_valid_password" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest Docker.test_006_login_valid_username_ivalid_password" />
       </list>
     </recent_temporary>
   </component>
@@ -600,11 +602,8 @@
     <history-entry file="Unittest_Docker_test_001_search_with_ivalid_keyword - 2016.10.02 at 18h 23m 05s.xml">
       <configuration name="Unittest Docker.test_001_search_with_ivalid_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Docker_test_005_login_ivalid_username_valid_password - 2016.09.29 at 09h 55m 07s.xml">
-      <configuration name="Unittest Docker.test_005_login_ivalid_username_valid_password" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Docker_test_005_login_ivalid_username_valid_password - 2016.09.29 at 09h 56m 27s.xml">
-      <configuration name="Unittest Docker.test_005_login_ivalid_username_valid_password" configurationId="tests" />
+    <history-entry file="Unittest_Docker_test_001_search_with_ivalid_keyword - 2016.10.02 at 18h 27m 47s.xml">
+      <configuration name="Unittest Docker.test_001_search_with_ivalid_keyword" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_Docker_test_006_login_valid_username_ivalid_password - 2016.09.29 at 09h 47m 48s.xml">
       <configuration name="Unittest Docker.test_006_login_valid_username_ivalid_password" configurationId="tests" />
@@ -615,10 +614,13 @@
     <history-entry file="Unittest_Docker_test_006_login_valid_username_ivalid_password - 2016.09.29 at 09h 49m 00s.xml">
       <configuration name="Unittest Docker.test_006_login_valid_username_ivalid_password" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittest_Docker_test_008_download_mac_link - 2016.10.02 at 18h 31m 23s.xml">
+      <configuration name="Unittest Docker.test_008_download_mac_link" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1403" height="873" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26818517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -626,9 +628,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45972738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45972738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13754646" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10656753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39900866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -941,18 +943,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Docker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        <state relative-caret-position="290">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="34" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>

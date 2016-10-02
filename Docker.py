@@ -47,65 +47,66 @@ class Docker(unittest.TestCase):
 
         self.signup("test","test@gmail.com","123456")
 
-    # login to docker website and logout.
+    """login to docker website and logout."""
     def test_004_login_valid_username_valid_password(self):
 
         self.login("waseyrabby@gmail.com", "718756Home")
         self.logout()
-        # try to login with  invalid credential and verify error massage.
+        """"" try to login with  invalid credential and verify error massage."""
     def test_005_login_ivalid_username_valid_password(self):
         self.login("waseyray", "718756Home")
         self.assert_error_massage()
 
-    # try to login with  invalid credential and verify error massage.
+        """try to login with  invalid credential and verify error massage."""
     def test_006_login_valid_username_ivalid_password(self):
         self.login("waseyrabby@gmail.com", "12345678")
         self.assert_error_massage()
 
-    # try to login with  invalid credential and verify error massage.
-    def test_007_login_ivalid_username_ivalid_password(self):
-        self.login("waseyrabbycom", "7187me")
-        self.assert_error_massage()
-
-    # click on download link and verify if download link is valid.
-    # I choose it because its important that we get new user and we only make money when they sign up and they wont sign up
-    # if the begening is not stable(download link broken)
+        """ try to login with  invalid credential and verify error massage."""
+   def test_007_login_ivalid_username_ivalid_password(self):
+       self.login("waseyrabbycom", "7187me")
+       self.assert_error_massage()
 
 
-    def test_008_download_mac_link(self):
-        driver = self.driver
-        driver.get(self.base_url)
-        driver.find_element_by_css_selector("li.leaf.menu-mlid-954 > a").click()
-        driver.find_element_by_link_text("Learn More").click()
-        driver.find_element_by_link_text("Download Docker for Mac").click()
-
-    def signup(self,user,e_mail,pasword):
-
-        driver = self.driver
-        driver.get(self.base_url)
-        signup=driver.find_element_by_xpath("html/body/div[1]/div/header/div[3]/div/div[2]/ul[1]/li[9]/a")
-        signup.click()
-        self.driver.switch_to.window(window_name=self.driver.window_handles[-1])
-        username=driver.find_element_by_name("username")
-        username.send_keys(user)
-        email = driver.find_element_by_name("email")
-        email.clear()
-        email.send_keys(e_mail)
-        password = driver.find_element_by_name("password")
-        password.clear()
-        password.send_keys(pasword)
-        submit = driver.find_element_by_xpath("//button[@type='submit']")
-        submit.click()
-
-    def assert_error_massage(self):
-        error = self.driver.find_element_by_css_selector(".styles__error___2FnCO")
-        errormassage = error.text
-        assert errormassage=="Incorrect authentication credentials."
+""" click on download link and verify if download link is valid."""
+# I choose it because its important that we get new user and we only make money when they sign up and they wont sign up
+# if the begening is not stable(download link broken)
 
 
+def test_008_download_mac_link(self):
+  driver = self.driver
+  driver.get(self.base_url)
+  driver.find_element_by_css_selector("li.leaf.menu-mlid-954 > a").click()
+  driver.find_element_by_link_text("Learn More").click()
+  driver.find_element_by_link_text("Download Docker for Mac").click()
 
-    def login(self, username, passowrd):
-        """
+def signup(self,user,e_mail,pasword):
+
+  driver = self.driver
+  driver.get(self.base_url)
+  signup=driver.find_element_by_xpath("html/body/div[1]/div/header/div[3]/div/div[2]/ul[1]/li[9]/a")
+  signup.click()
+  self.driver.switch_to.window(window_name=self.driver.window_handles[-1])
+  username=driver.find_element_by_name("username")
+  username.send_keys(user)
+  email = driver.find_element_by_name("email")
+  email.clear()
+  email.send_keys(e_mail)
+  password = driver.find_element_by_name("password")
+  password.clear()
+  password.send_keys(pasword)
+  submit = driver.find_element_by_xpath("//button[@type='submit']")
+  submit.click()
+
+def assert_error_massage(self):
+  error = self.driver.find_element_by_css_selector(".styles__error___2FnCO")
+  errormassage = error.text
+  assert errormassage=="Incorrect authentication credentials."
+
+
+
+def login(self, username, passowrd):
+  """
 
          :return:
           """

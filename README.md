@@ -3,7 +3,10 @@
 To run test u can  clone the reposidory  and run it from command line useing python Docker.py
 from project directory.
 or
-python -m unittest -v Docker
+run with unittest:- python -m unittest -v Docker
+
+run with robot framework:- robot TestDocker.robot 
+
 
 
 Or you can import it to your  IDE and run it from their.

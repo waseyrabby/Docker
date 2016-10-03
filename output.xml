@@ -1,102 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20161002 22:25:44.136" generator="Robot 3.0 (Python 3.5.2 on darwin)">
-<suite source="/Users/wasey/PycharmProjects/FlashPointCodeingExersize/TestDocker.robot" name="TestDocker" id="s1">
-<test name="Test title This test will verify no result found when searched with invalid keyword." id="s1-t1">
+<robot generated="20161002 22:35:45.473" generator="Robot 3.0 (Python 3.5.2 on darwin)">
+<suite id="s1" name="TestDocker" source="/Users/wasey/PycharmProjects/FlashPointCodeingExersize/TestDocker.robot">
+<test id="s1-t1" name="Test title This test will verify no result found when searched with invalid keyword.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:25:44.204" endtime="20161002 22:25:46.747"></status>
+<status status="PASS" endtime="20161002 22:35:48.107" starttime="20161002 22:35:45.564"></status>
 </kw>
 <kw name="Then test 001 search with ivalid keyword" library="Docker">
-<status status="PASS" starttime="20161002 22:25:46.747" endtime="20161002 22:26:00.529"></status>
+<status status="PASS" endtime="20161002 22:36:10.021" starttime="20161002 22:35:48.108"></status>
 </kw>
 <kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:00.530" endtime="20161002 22:26:00.669"></status>
+<status status="PASS" endtime="20161002 22:36:10.104" starttime="20161002 22:36:10.021"></status>
 </kw>
-<status status="PASS" starttime="20161002 22:25:44.204" critical="yes" endtime="20161002 22:26:00.669"></status>
+<status status="PASS" endtime="20161002 22:36:10.104" critical="yes" starttime="20161002 22:35:45.563"></status>
 </test>
-<test name="Test title This test will verify the title of docker website." id="s1-t2">
+<test id="s1-t2" name="Test title This test will verify the title of docker website.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:00.670" endtime="20161002 22:26:03.183"></status>
+<status status="PASS" endtime="20161002 22:36:12.627" starttime="20161002 22:36:10.105"></status>
 </kw>
 <kw name="Then test 002 VERIFY DOCKER WEBSITE TITLE URL" library="Docker">
-<msg timestamp="20161002 22:26:08.429" level="INFO">Docker - Build, Ship, and Run Any App, Anywhere</msg>
-<status status="PASS" starttime="20161002 22:26:03.184" endtime="20161002 22:26:08.429"></status>
+<msg timestamp="20161002 22:36:19.075" level="INFO">Docker - Build, Ship, and Run Any App, Anywhere</msg>
+<status status="PASS" endtime="20161002 22:36:19.075" starttime="20161002 22:36:12.628"></status>
 </kw>
 <kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:08.430" endtime="20161002 22:26:08.510"></status>
+<status status="PASS" endtime="20161002 22:36:19.163" starttime="20161002 22:36:19.076"></status>
 </kw>
-<status status="PASS" starttime="20161002 22:26:00.669" critical="yes" endtime="20161002 22:26:08.510"></status>
+<status status="PASS" endtime="20161002 22:36:19.163" critical="yes" starttime="20161002 22:36:10.105"></status>
 </test>
-<test name="Test title This test will signup new user and show error when existing user try to sign up." id="s1-t3">
+<test id="s1-t3" name="Test title This test will signup new user and show error when existing user try to sign up.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:08.512" endtime="20161002 22:26:11.012"></status>
+<status status="PASS" endtime="20161002 22:36:21.677" starttime="20161002 22:36:19.164"></status>
 </kw>
 <kw name="Then test 003 docker signup" library="Docker">
-<status status="PASS" starttime="20161002 22:26:11.013" endtime="20161002 22:26:19.348"></status>
+<status status="PASS" endtime="20161002 22:36:29.088" starttime="20161002 22:36:21.677"></status>
 </kw>
 <kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:19.348" endtime="20161002 22:26:19.446"></status>
+<status status="PASS" endtime="20161002 22:36:29.202" starttime="20161002 22:36:29.088"></status>
 </kw>
-<status status="PASS" starttime="20161002 22:26:08.511" critical="yes" endtime="20161002 22:26:19.447"></status>
+<status status="PASS" endtime="20161002 22:36:29.202" critical="yes" starttime="20161002 22:36:19.163"></status>
 </test>
-<test name="Test title This will test login with valid credential." id="s1-t4">
+<test id="s1-t4" name="Test title This will test login with valid credential.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:19.448" endtime="20161002 22:26:21.970"></status>
+<status status="PASS" endtime="20161002 22:36:31.731" starttime="20161002 22:36:29.204"></status>
 </kw>
 <kw name="Then test 004 login valid username valid password" library="Docker">
-<status status="PASS" starttime="20161002 22:26:21.970" endtime="20161002 22:26:36.302"></status>
+<status status="PASS" endtime="20161002 22:37:03.557" starttime="20161002 22:36:31.732"></status>
 </kw>
 <kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:36.302" endtime="20161002 22:26:36.407"></status>
+<status status="PASS" endtime="20161002 22:37:03.682" starttime="20161002 22:37:03.558"></status>
 </kw>
-<status status="PASS" starttime="20161002 22:26:19.447" critical="yes" endtime="20161002 22:26:36.408"></status>
+<status status="PASS" endtime="20161002 22:37:03.682" critical="yes" starttime="20161002 22:36:29.203"></status>
 </test>
-<test name="Test title This will test login with invalid user credential." id="s1-t5">
+<test id="s1-t5" name="Test title This will test login with invalid user credential.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:36.410" endtime="20161002 22:26:38.898"></status>
+<status status="PASS" endtime="20161002 22:37:06.489" starttime="20161002 22:37:03.684"></status>
 </kw>
 <kw name="Then test 005 login ivalid username valid password" library="Docker">
-<status status="PASS" starttime="20161002 22:26:38.899" endtime="20161002 22:26:46.736"></status>
+<msg timestamp="20161002 22:37:47.190" level="FAIL">NoSuchElementException: Message: Unable to locate element: {"method":"id","selector":"mui-id-0"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmphm91vdfk/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmphm91vdfk/extensions/fxdriver@googlecode.com/components/driver-component.js:623)</msg>
+<status status="FAIL" endtime="20161002 22:37:47.190" starttime="20161002 22:37:06.490"></status>
 </kw>
-<kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:46.737" endtime="20161002 22:26:46.840"></status>
-</kw>
-<status status="PASS" starttime="20161002 22:26:36.409" critical="yes" endtime="20161002 22:26:46.840"></status>
+<status status="FAIL" endtime="20161002 22:37:47.190" critical="yes" starttime="20161002 22:37:03.683">NoSuchElementException: Message: Unable to locate element: {"method":"id","selector":"mui-id-0"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmphm91vdfk/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmphm91vdfk/extensions/fxdriver@googlecode.com/components/driver-component.js:623)</status>
 </test>
-<test name="Test title This will test login with invalid password credential." id="s1-t6">
+<test id="s1-t6" name="Test title This will test login with invalid password credential.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:46.841" endtime="20161002 22:26:49.356"></status>
+<status status="PASS" endtime="20161002 22:37:49.955" starttime="20161002 22:37:47.191"></status>
 </kw>
 <kw name="Then test 006 login valid username ivalid password" library="Docker">
-<status status="PASS" starttime="20161002 22:26:49.357" endtime="20161002 22:26:57.724"></status>
+<msg timestamp="20161002 22:38:27.107" level="FAIL">NoSuchElementException: Message: Unable to locate element: {"method":"id","selector":"mui-id-0"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmp083t2lx6/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmp083t2lx6/extensions/fxdriver@googlecode.com/components/driver-component.js:623)</msg>
+<status status="FAIL" endtime="20161002 22:38:27.107" starttime="20161002 22:37:49.956"></status>
 </kw>
-<kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:57.725" endtime="20161002 22:26:57.832"></status>
-</kw>
-<status status="PASS" starttime="20161002 22:26:46.841" critical="yes" endtime="20161002 22:26:57.832"></status>
+<status status="FAIL" endtime="20161002 22:38:27.107" critical="yes" starttime="20161002 22:37:47.191">NoSuchElementException: Message: Unable to locate element: {"method":"id","selector":"mui-id-0"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmp083t2lx6/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmp083t2lx6/extensions/fxdriver@googlecode.com/components/driver-component.js:623)</status>
 </test>
-<test name="Test title This will test login with invalid credential." id="s1-t7">
+<test id="s1-t7" name="Test title This will test login with invalid credential.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:26:57.834" endtime="20161002 22:27:00.363"></status>
+<status status="PASS" endtime="20161002 22:38:29.654" starttime="20161002 22:38:27.109"></status>
 </kw>
 <kw name="Then test 007 login ivalid username ivalid password" library="Docker">
-<status status="PASS" starttime="20161002 22:27:00.364" endtime="20161002 22:27:10.667"></status>
+<msg timestamp="20161002 22:39:07.097" level="FAIL">NoSuchElementException: Message: Unable to locate element: {"method":"id","selector":"mui-id-0"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmpvdus03v_/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmpvdus03v_/extensions/fxdriver@googlecode.com/components/driver-component.js:623)</msg>
+<status status="FAIL" endtime="20161002 22:39:07.097" starttime="20161002 22:38:29.655"></status>
 </kw>
-<kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:27:10.667" endtime="20161002 22:27:10.754"></status>
-</kw>
-<status status="PASS" starttime="20161002 22:26:57.833" critical="yes" endtime="20161002 22:27:10.755"></status>
+<status status="FAIL" endtime="20161002 22:39:07.098" critical="yes" starttime="20161002 22:38:27.108">NoSuchElementException: Message: Unable to locate element: {"method":"id","selector":"mui-id-0"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmpvdus03v_/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/zd/169rjdb53qv_dfmhsbk47c1c0000gn/T/tmpvdus03v_/extensions/fxdriver@googlecode.com/components/driver-component.js:623)</status>
 </test>
-<test name="Test title This test will verify if dounload link is valid." id="s1-t8">
+<test id="s1-t8" name="Test title This test will verify if dounload link is valid.">
 <kw name="When User setup browser" library="Docker">
-<status status="PASS" starttime="20161002 22:27:10.756" endtime="20161002 22:27:13.265"></status>
+<status status="PASS" endtime="20161002 22:39:09.793" starttime="20161002 22:39:07.098"></status>
 </kw>
 <kw name="Then test 008 download mac link" library="Docker">
-<status status="PASS" starttime="20161002 22:27:13.266" endtime="20161002 22:27:28.774"></status>
+<status status="PASS" endtime="20161002 22:39:23.983" starttime="20161002 22:39:09.794"></status>
 </kw>
 <kw name="Then User tearDown Browser" library="Docker">
-<status status="PASS" starttime="20161002 22:27:28.774" endtime="20161002 22:27:29.027"></status>
+<status status="PASS" endtime="20161002 22:39:24.063" starttime="20161002 22:39:23.984"></status>
 </kw>
-<status status="PASS" starttime="20161002 22:27:10.755" critical="yes" endtime="20161002 22:27:29.027"></status>
+<status status="PASS" endtime="20161002 22:39:24.064" critical="yes" starttime="20161002 22:39:07.098"></status>
 </test>
 <doc>Example test case using the gherkin syntax.
 
@@ -109,17 +121,17 @@ This kind of _gherkin_ syntax has been made popular by
 [http://cukes.info|Cucumber]. It works well especially when
 tests act as examples that need to be easily understood also
 by the business people.</doc>
-<status status="PASS" starttime="20161002 22:25:44.137" endtime="20161002 22:27:29.029"></status>
+<status status="FAIL" endtime="20161002 22:39:24.065" starttime="20161002 22:35:45.474"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="8">Critical Tests</stat>
-<stat fail="0" pass="8">All Tests</stat>
+<stat fail="3" pass="5">Critical Tests</stat>
+<stat fail="3" pass="5">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="0" name="TestDocker" id="s1" pass="8">TestDocker</stat>
+<stat id="s1" fail="3" pass="5" name="TestDocker">TestDocker</stat>
 </suite>
 </statistics>
 <errors>

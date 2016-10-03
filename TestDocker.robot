@@ -60,11 +60,4 @@ Test title This test will verify if dounload link is valid.
     Then User tearDown Browser
 
 *** Keywords ***
-Open Dockr Site
-    User setup browser
 
-User types
-
-
-Close Docker Site
-   User tearDown Browser

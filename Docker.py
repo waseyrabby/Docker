@@ -11,7 +11,7 @@ class Docker(unittest.TestCase):
     # we can chose either one of the browser.With advance codeing we can run both parallaly,or we can chose which browser to run test
     # useing javascript popup(done it in java ,not python).I am not sure if you want me to do that
 
-    def setUp(self):
+    def User_setUp_Browser(self):
         self.driver = webdriver.Firefox()
         # self.driver=webdriver.Chrome()
         self.driver.maximize_window()
@@ -30,7 +30,7 @@ class Docker(unittest.TestCase):
 
         # verify the title of docker website
     # It could be our smoke test to see if website is stable to test
-    def test__002_Verify_docker_website_title_url(self):
+    def test_002_Verify_docker_website_title_url(self):
 
         driver = self.driver
         driver.get(self.base_url)
@@ -172,7 +172,7 @@ class Docker(unittest.TestCase):
 
 
         # after test closeing the browser.
-    def tearDown(self):
+    def User_tearDown_Browser(self):
         self.driver.quit()
         self.assertEqual([], self.verificationErrors)
 

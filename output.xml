@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20161002 22:25:44.136" generator="Robot 3.0 (Python 3.5.2 on darwin)">
+<suite source="/Users/wasey/PycharmProjects/FlashPointCodeingExersize/TestDocker.robot" name="TestDocker" id="s1">
+<test name="Test title This test will verify no result found when searched with invalid keyword." id="s1-t1">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:25:44.204" endtime="20161002 22:25:46.747"></status>
+</kw>
+<kw name="Then test 001 search with ivalid keyword" library="Docker">
+<status status="PASS" starttime="20161002 22:25:46.747" endtime="20161002 22:26:00.529"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:00.530" endtime="20161002 22:26:00.669"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:25:44.204" critical="yes" endtime="20161002 22:26:00.669"></status>
+</test>
+<test name="Test title This test will verify the title of docker website." id="s1-t2">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:00.670" endtime="20161002 22:26:03.183"></status>
+</kw>
+<kw name="Then test 002 VERIFY DOCKER WEBSITE TITLE URL" library="Docker">
+<msg timestamp="20161002 22:26:08.429" level="INFO">Docker - Build, Ship, and Run Any App, Anywhere</msg>
+<status status="PASS" starttime="20161002 22:26:03.184" endtime="20161002 22:26:08.429"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:08.430" endtime="20161002 22:26:08.510"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:26:00.669" critical="yes" endtime="20161002 22:26:08.510"></status>
+</test>
+<test name="Test title This test will signup new user and show error when existing user try to sign up." id="s1-t3">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:08.512" endtime="20161002 22:26:11.012"></status>
+</kw>
+<kw name="Then test 003 docker signup" library="Docker">
+<status status="PASS" starttime="20161002 22:26:11.013" endtime="20161002 22:26:19.348"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:19.348" endtime="20161002 22:26:19.446"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:26:08.511" critical="yes" endtime="20161002 22:26:19.447"></status>
+</test>
+<test name="Test title This will test login with valid credential." id="s1-t4">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:19.448" endtime="20161002 22:26:21.970"></status>
+</kw>
+<kw name="Then test 004 login valid username valid password" library="Docker">
+<status status="PASS" starttime="20161002 22:26:21.970" endtime="20161002 22:26:36.302"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:36.302" endtime="20161002 22:26:36.407"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:26:19.447" critical="yes" endtime="20161002 22:26:36.408"></status>
+</test>
+<test name="Test title This will test login with invalid user credential." id="s1-t5">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:36.410" endtime="20161002 22:26:38.898"></status>
+</kw>
+<kw name="Then test 005 login ivalid username valid password" library="Docker">
+<status status="PASS" starttime="20161002 22:26:38.899" endtime="20161002 22:26:46.736"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:46.737" endtime="20161002 22:26:46.840"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:26:36.409" critical="yes" endtime="20161002 22:26:46.840"></status>
+</test>
+<test name="Test title This will test login with invalid password credential." id="s1-t6">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:46.841" endtime="20161002 22:26:49.356"></status>
+</kw>
+<kw name="Then test 006 login valid username ivalid password" library="Docker">
+<status status="PASS" starttime="20161002 22:26:49.357" endtime="20161002 22:26:57.724"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:57.725" endtime="20161002 22:26:57.832"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:26:46.841" critical="yes" endtime="20161002 22:26:57.832"></status>
+</test>
+<test name="Test title This will test login with invalid credential." id="s1-t7">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:26:57.834" endtime="20161002 22:27:00.363"></status>
+</kw>
+<kw name="Then test 007 login ivalid username ivalid password" library="Docker">
+<status status="PASS" starttime="20161002 22:27:00.364" endtime="20161002 22:27:10.667"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:27:10.667" endtime="20161002 22:27:10.754"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:26:57.833" critical="yes" endtime="20161002 22:27:10.755"></status>
+</test>
+<test name="Test title This test will verify if dounload link is valid." id="s1-t8">
+<kw name="When User setup browser" library="Docker">
+<status status="PASS" starttime="20161002 22:27:10.756" endtime="20161002 22:27:13.265"></status>
+</kw>
+<kw name="Then test 008 download mac link" library="Docker">
+<status status="PASS" starttime="20161002 22:27:13.266" endtime="20161002 22:27:28.774"></status>
+</kw>
+<kw name="Then User tearDown Browser" library="Docker">
+<status status="PASS" starttime="20161002 22:27:28.774" endtime="20161002 22:27:29.027"></status>
+</kw>
+<status status="PASS" starttime="20161002 22:27:10.755" critical="yes" endtime="20161002 22:27:29.027"></status>
+</test>
+<doc>Example test case using the gherkin syntax.
+
+This test has a workflow similar to the keyword-driven
+examples. The difference is that the keywords use higher
+abstraction level and their arguments are embedded into
+the keyword names.
+
+This kind of _gherkin_ syntax has been made popular by
+[http://cukes.info|Cucumber]. It works well especially when
+tests act as examples that need to be easily understood also
+by the business people.</doc>
+<status status="PASS" starttime="20161002 22:25:44.137" endtime="20161002 22:27:29.029"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="8">Critical Tests</stat>
+<stat fail="0" pass="8">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" name="TestDocker" id="s1" pass="8">TestDocker</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

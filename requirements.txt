@@ -1,3 +1,2 @@
 robotframework==3.0
-robotframework-selenium2library==1.7.4
 selenium==2.52.0

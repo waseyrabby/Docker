@@ -18,10 +18,12 @@ class Docker(unittest.TestCase):
         desired_cap_windows_edge = {'browser': 'Edge', 'browser_version': '13.0', 'os': 'Windows', 'os_version': '10',
                        'resolution': '2048x1536'}
         desired_cap_Iphone = {'platform': 'MAC', 'browserName': 'iPhone', 'device': 'iPhone 5'}
+        desired_cap_osx_mozila = {'browser': 'Firefox', 'browser_version': '45.0', 'os': 'OS X', 'os_version': 'El Capitan',
+                       'resolution': '1280x1024'}
 
         self.driver = webdriver.Remote(
             command_executor='http://home28:onzjKpFdLAbmEDP4fQHX@hub.browserstack.com:80/wd/hub',
-            desired_capabilities=desired_cap_osx_safari)
+            desired_capabilities=desired_cap_osx_mozila)
 
         # self.driver = webdriver.Firefox()
         # self.driver=webdriver.Chrome()

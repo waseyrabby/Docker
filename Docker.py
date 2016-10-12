@@ -12,7 +12,13 @@ class Docker(unittest.TestCase):
     # useing javascript popup(done it in java ,not python).I am not sure if you want me to do that
 
     def User_setUp_Browser(self):
-        self.driver = webdriver.Firefox()
+        desired_cap = {'os': 'Windows', 'os_version': 'xp', 'browser': 'IE', 'browser_version': '7.0'}
+
+        self.driver = webdriver.Remote(
+            command_executor='http://home28:onzjKpFdLAbmEDP4fQHX@hub.browserstack.com:80/wd/hub',
+            desired_capabilities=desired_cap)
+
+        # self.driver = webdriver.Firefox()
         # self.driver=webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)

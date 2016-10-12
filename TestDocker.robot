@@ -37,7 +37,7 @@ Test title This will test login with valid credential.
 
 Test title This will test login with invalid user credential.
 
-    When User setup browser
+   When User setup browser
     Then test 005 login ivalid username valid password
     Then User tearDown Browser
 

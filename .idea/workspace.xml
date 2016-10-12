@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b97049-c53e-4d5c-a2c5-a64dc854abca" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDocker.robot" afterPath="$PROJECT_DIR$/TestDocker.robot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.xml" afterPath="$PROJECT_DIR$/output.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docker.py" afterPath="$PROJECT_DIR$/Docker.py" />
     </list>
     <ignored path="untitled2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +61,18 @@
       <file leaf-file-name="Docker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Docker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,12 +122,12 @@
         <option value="$PROJECT_DIR$/Docker.rst" />
         <option value="$PROJECT_DIR$/reportbuild/Docker.html" />
         <option value="$PROJECT_DIR$/Readme.txt" />
-        <option value="$PROJECT_DIR$/Docker.py" />
-        <option value="$PROJECT_DIR$/Docker.py" />
         <option value="$PROJECT_DIR$/Docker_Test.robot" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/TestDocker.robot" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/Docker.py" />
+        <option value="$PROJECT_DIR$/Docker.py" />
       </list>
     </option>
   </component>
@@ -671,7 +681,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/report/make.bat" />
     <entry file="file://$PROJECT_DIR$/report/reportbuild/latex/python.ist" />
     <entry file="file://$PROJECT_DIR$/report/reportbuild/latex/newfloat.sty" />
     <entry file="file://$PROJECT_DIR$/Readme.txt">
@@ -841,15 +850,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/report/make.bat" />
+    <entry file="file://$PROJECT_DIR$/stable-req.txt" />
+    <entry file="file://$PROJECT_DIR$/TestDocker.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/make.bat" />
-    <entry file="file://$PROJECT_DIR$/stable-req.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -861,26 +887,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDocker.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Docker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding />
         </state>
       </provider>
